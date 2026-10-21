@@ -1,0 +1,39 @@
+{
+  "name": "shiguang",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Shiguang: a self-hosted Chinese journal for fleeting thoughts, moods, and optional AI reflections.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViolaSongsy/shiguang.git"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "next typegen && tsc --noEmit",
+    "test:integration": "node --test tests/*.integration.mjs"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.17.4",
+    "lucide-react": "^0.468.0",
+    "next": "^16.4.2",
+    "openai": "^4.77.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.4.2",
+    "typescript": "^5.7.2"
+  }
+}

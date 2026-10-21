@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="460" viewBox="0 0 1440 460" role="img" aria-labelledby="title desc">
+  <title id="title">Shiguang · 拾光</title>
+  <desc id="desc">A quiet journal for thoughts, moods, and small moments. Dark blue sky with a gold constellation.</desc>
+  <defs>
+    <linearGradient id="sky" x2="1" y2="1"><stop stop-color="#07101f"/><stop offset="1" stop-color="#1c2840"/></linearGradient>
+    <radialGradient id="light"><stop stop-color="#d9bd7b" stop-opacity=".2"/><stop offset="1" stop-color="#d9bd7b" stop-opacity="0"/></radialGradient>
+    <linearGradient id="gold"><stop stop-color="#f2dfac"/><stop offset="1" stop-color="#ba9655"/></linearGradient>
+  </defs>
+  <rect width="1440" height="460" rx="24" fill="url(#sky)"/>
+  <circle cx="1110" cy="210" r="260" fill="url(#light)"/>
+  <g fill="none" stroke="#d9bd7b" stroke-opacity=".38" stroke-width="1.5"><path d="M939 292 1010 185 1122 222 1228 123 1288 271 1122 222 1160 344 1010 185"/></g>
+  <g fill="#f2dfac"><circle cx="939" cy="292" r="4"/><circle cx="1010" cy="185" r="6"/><circle cx="1122" cy="222" r="4"/><circle cx="1228" cy="123" r="7"/><circle cx="1288" cy="271" r="4"/><circle cx="1160" cy="344" r="5"/></g>
+  <g fill="#d9bd7b" opacity=".4"><circle cx="790" cy="90" r="2"/><circle cx="868" cy="350" r="2"/><circle cx="1328" cy="74" r="2"/><circle cx="1375" cy="357" r="2"/><circle cx="1025" cy="378" r="2"/><circle cx="700" cy="364" r="2"/></g>
+  <text x="92" y="106" fill="#a9b8ce" font-family="Arial,sans-serif" font-size="14" letter-spacing="5">A LITTLE SPACE FOR YOUR DAY</text>
+  <text x="88" y="217" fill="url(#gold)" font-family="Georgia,'Noto Serif CJK SC',serif" font-size="84">Shiguang · 拾光</text>
+  <text x="94" y="281" fill="#e5e8ed" font-family="Arial,sans-serif" font-size="25">Collect the small lights of your day.</text>
+  <text x="94" y="344" fill="#97a7be" font-family="Arial,sans-serif" font-size="17">THOUGHTS  /  MOODS  /  REFLECTIONS</text>
+  <path d="M94 383h610" stroke="#d9bd7b" stroke-opacity=".18"/>
+</svg>

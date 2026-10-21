@@ -1,0 +1,15 @@
+name: Feature request
+description: Suggest an improvement to the journal.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the workflow using fictional examples.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested approach
+      description: Include alternatives or constraints if useful.

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="拾光">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#172a4d"/>
+      <stop offset="58%" stop-color="#0b172b"/>
+      <stop offset="100%" stop-color="#07101f"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#sky)"/>
+  <circle cx="134" cy="116" r="5" fill="#f0d998" opacity=".9"/>
+  <circle cx="386" cy="126" r="4" fill="#dfe9ff" opacity=".82"/>
+  <circle cx="420" cy="344" r="5" fill="#8ba8d7" opacity=".78"/>
+  <circle cx="96" cy="370" r="4" fill="#dfe9ff" opacity=".75"/>
+  <path d="M151 276c75-8 115-49 129-125 10 76 50 117 126 125-76 11-117 51-126 126-12-75-52-115-129-126Z" fill="#f0d998" filter="url(#glow)"/>
+  <path d="M181 166 331 346M333 166 181 346" stroke="#8ba8d7" stroke-width="5" stroke-linecap="round" opacity=".34"/>
+  <text x="256" y="456" text-anchor="middle" fill="#f2f0e9" font-size="54" font-family="Songti SC, STSong, serif" letter-spacing="8">拾光</text>
+</svg>

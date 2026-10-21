@@ -1,0 +1,29 @@
+name: Bug report
+description: Report a reproducible problem without including private journal data.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please use fictional entries and redact emails, tokens, database URLs, and logs.
+        For security issues, follow SECURITY.md instead of opening a public issue.
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include the page, actions, and a fictional input that reproduces the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: "OS, browser, Node version, commit, local or hosted"
+    validations:
+      required: true

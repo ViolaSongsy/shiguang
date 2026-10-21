@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="拾光">
+  <rect width="512" height="512" fill="#07101f"/>
+  <circle cx="256" cy="256" r="196" fill="#0d1930"/>
+  <circle cx="144" cy="126" r="6" fill="#f0d998"/>
+  <circle cx="380" cy="134" r="5" fill="#dfe9ff"/>
+  <circle cx="406" cy="365" r="5" fill="#8ba8d7"/>
+  <path d="M132 260c80-9 125-54 140-138 12 84 57 129 140 138-83 12-128 57-140 140-14-83-59-128-140-140Z" fill="#f0d998"/>
+  <text x="256" y="456" text-anchor="middle" fill="#f2f0e9" font-size="54" font-family="Songti SC, STSong, serif" letter-spacing="8">拾光</text>
+</svg>
