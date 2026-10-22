@@ -77,6 +77,8 @@ npm run test:integration
 
 ## 项目结构
 
+参见[设计取舍](docs/DESIGN.md)，了解产品问题、实现重点、技术选择与回归验证。
+
 `app/` 放页面和 API，`components/` 放共享界面与状态，`lib/` 放数据库、登录、日期、邮件和限流逻辑，`tests/` 放集成测试，`docs/` 放文档与演示素材。
 
 ## 参与贡献
