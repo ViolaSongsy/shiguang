@@ -93,7 +93,7 @@ export async function POST(request: Request) {
     }
 
     const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-    const completion = await openai.beta.chat.completions.parse({
+    const completion = await openai.chat.completions.parse({
       model: process.env.OPENAI_MODEL || "gpt-4o-mini",
       response_format: zodResponseFormat(reflectionSchema, "daily_reflection"),
       temperature: 0.42,

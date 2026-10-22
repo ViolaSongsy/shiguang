@@ -6,6 +6,8 @@ updates:
       interval: weekly
     open-pull-requests-limit: 5
     groups:
+      ai-schema:
+        patterns: [openai, zod]
       nextjs:
         patterns: [next, eslint-config-next]
       react:

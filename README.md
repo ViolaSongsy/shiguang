@@ -83,6 +83,8 @@ Local and hosted databases are separate unless you deliberately configure the sa
 
 ## How it works
 
+Read [Design decisions](docs/DESIGN.md) for the product problem, implementation focus, tradeoffs, and failures turned into tests.
+
 ```mermaid
 flowchart LR
   Browser[Chinese journal UI] --> API[Authenticated Next.js routes]
